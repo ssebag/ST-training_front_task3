@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-class{
+  background-color: #fafafa;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text{
+    text-align: center;
+}
+.title_paragraph{
+ color:green;
+}
+.cardsDiv{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    border: 1px solid #eee;
+    background-color: #fff;
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}    
+.card-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee;
+    padding-left: 15px;
+}
+.font-light{
+    color:grey;
+}
+
+.section1 .s1{
+    color: #555;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section1 p{
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+.section1 .s2{
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}    
+.section2{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-left: 15px;
+    height: 50px;
+    align-items: center;
+    font-size: 15px;
+}
+.section2 .part1, .section2 .part2{
+    width: 50%;
+}
+.section3{
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+}
+.section3 .s3_title{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+}
+.section3 .part1{
+    display: flex;
+}
+.section3 .part1 .sec1{
+    width: 20%;
+}
+.section3 .part1 .sec2{
+    width: 80%;
+}
+.section3 .part1 .sec2 .name{
+    font-weight: 600;
+}
+.section3 .part1 .sec2 .num{
+    font-size: 13px;
+    font-weight: 600;
+}
+.part1 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
